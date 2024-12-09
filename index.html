@@ -1,0 +1,457 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   UpskillR- Develop Essential Soft Skills
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-black shadow-md">
+   <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <div class="flex items-center">
+     <img alt="Upskillr logo with a graph going up" class="h-10 w-10" height="50" src="https://storage.googleapis.com/a1aa/image/WNPzpYfcN5R6BCInlvV4ZIf3QyMA7HPG4eeRMdQ87vai3uPPB.jpg" width="50"/>
+     <span class="ml-2 text-xl font-bold text-white">
+      Upskillr
+     </span>
+    </div>
+    <div>
+     <a class="text-white hover:text-gray-400 mx-2" href="#home">
+      Home
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="#dashboard">
+      Dashboard
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="#training">
+      Training
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="#assessment">
+      Assessment
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="#profile">
+      Profile
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Homepage -->
+  <section class="bg-green-100 py-12" id="home">
+   <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold text-black">
+     Welcome to Upskillr
+    </h1>
+    <p class="mt-4 text-lg text-gray-700">
+     Develop essential soft skills for career and personal growth.
+    </p>
+    <div class="mt-6">
+     <a class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 mx-2" href="#get-started">
+      Get Started
+     </a>
+     <a class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mx-2" href="#login">
+      Log In
+     </a>
+     <a class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mx-2" href="#learn-more">
+      Learn More
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- Features -->
+  <section class="py-12">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-white">
+     Platform Features
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-user-check text-4xl text-green-600">
+      </i>
+      <h3 class="mt-4 text-xl font-semibold">
+       Personalized Assessments
+      </h3>
+      <p class="mt-2 text-gray-600">
+       Tailored assessments to identify your strengths and areas for improvement.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-chalkboard-teacher text-4xl text-blue-600">
+      </i>
+      <h3 class="mt-4 text-xl font-semibold">
+       Interactive Training
+      </h3>
+      <p class="mt-2 text-gray-600">
+       Engaging training modules to enhance your soft skills.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-robot text-4xl text-yellow-500">
+      </i>
+      <h3 class="mt-4 text-xl font-semibold">
+       AI-Powered Feedback
+      </h3>
+      <p class="mt-2 text-gray-600">
+       Receive instant feedback on your performance using AI technology.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-certificate text-4xl text-green-600">
+      </i>
+      <h3 class="mt-4 text-xl font-semibold">
+       Certification
+      </h3>
+      <p class="mt-2 text-gray-600">
+       Earn certificates to showcase your improved skills.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- User Onboarding -->
+  <section class="bg-blue-100 py-12" id="get-started">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-blue-600">
+     Get Started
+    </h2>
+    <div class="mt-8 max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+     <form action="#assessment">
+      <div class="mb-4">
+       <label class="block text-gray-700" for="name">
+        Name
+       </label>
+       <input class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" id="name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="email">
+        Email
+       </label>
+       <input class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" id="email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="profession">
+        Profession
+       </label>
+       <input class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" id="profession" type="text"/>
+      </div>
+       <div class="mb-4">
+       <label class="block text-gray-700" for="profession">
+        Ph No 
+       </label>
+       <input class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600" id="profession" type="text"/>
+      </div>
+      <button class="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700" type="submit">
+       Sign Up
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Skill Assessment -->
+  <section class="bg-yellow-200 py-12" id="assessment">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-black">
+     Skill Assessment
+    </h2>
+  
+      <section class="bg-yellow-200 py-12" id="assessment">
+        <div class="cotainer mx-auto px-4">
+
+            <a href="https://ibrahimh-max.github.io/quiz-pt-2/" target="_blank">
+                <button class="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4">
+                    Take Quiz
+                </button>
+            </a>
+
+        </div>
+
+      </section>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Dashboard -->
+  <section class="bg-green-200 py-12" id="dashboard">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-green-800">
+     Dashboard
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-green-800">
+       Initial Skill Levels
+      </h3>
+      <ul class="mt-4 text-gray-700">
+       <li>
+        Communication: 7/10
+       </li>
+       <li>
+        Leadership: 6/10
+       </li>
+       <li>
+        Emotional Intelligence: 8/10
+       </li>
+       <li>
+        Writing Skills: 5/10
+       </li>
+       <li>
+        Critical Thinking: 7/10
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-green-800">
+       Progress Overview
+      </h3>
+      <div class="mt-4">
+       <div class="flex items-center justify-between">
+        <span>
+         Communication
+        </span>
+        <span>
+         70%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-4">
+        <div class="bg-green-600 h-4 rounded-full" style="width: 70%;">
+        </div>
+       </div>
+      </div>
+      <div class="mt-4">
+       <div class="flex items-center justify-between">
+        <span>
+         Leadership
+        </span>
+        <span>
+         60%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-4">
+        <div class="bg-green-600 h-4 rounded-full" style="width: 60%;">
+        </div>
+       </div>
+      </div>
+      <div class="mt-4">
+       <div class="flex items-center justify-between">
+        <span>
+         Emotional Intelligence
+        </span>
+        <span>
+         80%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-4">
+        <div class="bg-green-600 h-4 rounded-full" style="width: 80%;">
+        </div>
+       </div>
+      </div>
+      <div class="mt-4">
+       <div class="flex items-center justify-between">
+        <span>
+         Writing Skills
+        </span>
+        <span>
+         50%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-4">
+        <div class="bg-green-600 h-4 rounded-full" style="width: 50%;">
+        </div>
+       </div>
+      </div>
+      <div class="mt-4">
+       <div class="flex items-center justify-between">
+        <span>
+         Critical Thinking
+        </span>
+        <span>
+         70%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-4">
+        <div class="bg-green-600 h-4 rounded-full" style="width: 70%;">
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-green-800">
+       Actions
+      </h3>
+      <div class="mt-4">
+       <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mb-2" href="#assessment">
+        Take Assessment
+       </a>
+       <a class="block bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 mb-2" href="#training">
+        Start Training
+       </a>
+       <a class="block bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600" href="#progress">
+        View Progress
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Training Modules -->
+  <section class="bg-purple-100 py-12" id="training">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-purple-600">
+     Training Modules
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Communication Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Video tutorials, interactive exercises, and speech simulation tools.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="https://ibrahimh-max.github.io/datathon-feature/">
+       Start Training
+      </a>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Leadership Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Mock interviews, role-playing scenarios, and debates.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="#">
+       Start Training
+      </a>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Emotional Intelligence Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Interactive exercises and real-life scenario-based tasks.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="#">
+       Start Training
+      </a>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Conflict Resolution Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Role-playing scenarios and debates to practice conflict resolution.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="#">
+       Start Training
+      </a>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Persuasive Speaking Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Speech simulation tools and interactive exercises.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="#">
+       Start Training
+      </a>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Writing Skills Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Writing tasks analyzed by an AI-powered feedback tool.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="#">
+       Start Training
+      </a>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold text-purple-600">
+       Critical Thinking Training
+      </h3>
+      <p class="mt-2 text-gray-700">
+       Interactive exercises and real-life scenario-based tasks.
+      </p>
+      <a class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 mt-4" href="#">
+       Start Training
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  
+  <!-- Mock Interview Section -->
+<section class="bg-gray-100 py-12" id="mock-interview">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-italic text-center text-blue-600">
+      Mock Interview
+    </h2>
+    <div class="mt-8 flex justify-center space-x-4">
+      <a href="https://www.codementor.io/mock-interview-practices" target="_blank" class="bg-green-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-500 transition duration-300">
+        Essential Tips For a Mock Interview
+      </a>
+      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 transition duration-300">
+        Take a Mock Interview
+      </button>
+    </div>
+  </div>
+</section>
+  <section class="bg-blue-100 py-12" id="progress"> 
+  <div class="container mx-auto px-4"> 
+  <h2 class="text-3xl font-bold text-center text-green-600"> 
+  Progress Tracking 
+  </h2> 
+  <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
+  <div class="bg-white p-6 rounded-lg shadow-md"> 
+  <h3 class="text-xl font-semibold text-blue-600">
+  Progress Bars 
+  </h3> 
+  <div class="mt-4"> <div class="flex items-center justify-between"> <span> 
+  Communication 
+  </span> 
+  <span> 70% 
+  </span> 
+  </div> 
+  <div class="w-full bg-gray-200 rounded-full h-4"> 
+  <div class="bg-green-600 h-4 rounded-full" style="width: 70%;"> </div> 
+  </div> 
+  </div> 
+  <div class="mt-4"> 
+  <div class="flex items-center justify-between"> 
+  <span> Leadership 
+  </span> 
+  <span> 60% 
+  </span> 
+  </div> 
+  <div class="w-full bg-gray-200 rounded-full h-4"> 
+  <div class="bg-green-600 h-4 rounded-full" style="width: 60%;"> </div> 
+  </div> 
+  
+ 
+  </div>
+        </div>
+    </div>
+</div>
+  
+  
+<div> 
+<!-- Footer Section -->
+<footer class="bg-black  padding-top-50px text-white py-4">
+    <div class="text-center">
+        Upskillr 2024 &copy; All rights reserved
+    </div>
+</footer>
+
+</div>
+
+  
